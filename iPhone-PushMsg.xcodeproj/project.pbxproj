@@ -23,6 +23,7 @@
 		E0467A9E1962C651001DDC66 /* ZMQContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A981962C651001DDC66 /* ZMQContext.m */; };
 		E0467A9F1962C651001DDC66 /* ZMQException.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A9A1962C651001DDC66 /* ZMQException.m */; };
 		E0467AA01962C651001DDC66 /* ZMQSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A9D1962C651001DDC66 /* ZMQSocket.m */; };
+		E0467AA21962DEDC001DDC66 /* iPhone Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0467AA11962DEDC001DDC66 /* iPhone Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		E0467A9B1962C651001DDC66 /* ZMQObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQObjC.h; sourceTree = "<group>"; };
 		E0467A9C1962C651001DDC66 /* ZMQSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQSocket.h; sourceTree = "<group>"; };
 		E0467A9D1962C651001DDC66 /* ZMQSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQSocket.m; sourceTree = "<group>"; };
+		E0467AA11962DEDC001DDC66 /* iPhone Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		E0467A591962C1FF001DDC66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0467AA11962DEDC001DDC66 /* iPhone Icon.png */,
 				E0467A961962C651001DDC66 /* objc-zmq */,
 				E0467A5A1962C1FF001DDC66 /* iPhone-PushMsg-Info.plist */,
 				E0467A5B1962C1FF001DDC66 /* InfoPlist.strings */,
@@ -233,6 +236,7 @@
 				E0467A5D1962C1FF001DDC66 /* InfoPlist.strings in Resources */,
 				E0467A8A1962C3BA001DDC66 /* README.markdown in Resources */,
 				E0467A661962C1FF001DDC66 /* Main.storyboard in Resources */,
+				E0467AA21962DEDC001DDC66 /* iPhone Icon.png in Resources */,
 				E0467A8C1962C3D3001DDC66 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
