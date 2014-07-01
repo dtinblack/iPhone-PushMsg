@@ -16,22 +16,14 @@
 		E0467A661962C1FF001DDC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0467A641962C1FF001DDC66 /* Main.storyboard */; };
 		E0467A691962C1FF001DDC66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A681962C1FF001DDC66 /* ViewController.m */; };
 		E0467A6B1962C1FF001DDC66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0467A6A1962C1FF001DDC66 /* Images.xcassets */; };
-		E0467A721962C1FF001DDC66 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0467A711962C1FF001DDC66 /* XCTest.framework */; };
-		E0467A731962C1FF001DDC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0467A521962C1FF001DDC66 /* Foundation.framework */; };
-		E0467A741962C1FF001DDC66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0467A561962C1FF001DDC66 /* UIKit.framework */; };
-		E0467A7C1962C1FF001DDC66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0467A7A1962C1FF001DDC66 /* InfoPlist.strings */; };
-		E0467A7E1962C1FF001DDC66 /* iPhone_PushMsgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A7D1962C1FF001DDC66 /* iPhone_PushMsgTests.m */; };
+		E0467A881962C367001DDC66 /* UniversaliOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0467A871962C367001DDC66 /* UniversaliOS.framework */; };
+		E0467A8A1962C3BA001DDC66 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = E0467A891962C3BA001DDC66 /* README.markdown */; };
+		E0467A8C1962C3D3001DDC66 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E0467A8B1962C3D3001DDC66 /* LICENSE */; };
+		E0467A951962C563001DDC66 /* ZMQServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A941962C563001DDC66 /* ZMQServer.m */; };
+		E0467A9E1962C651001DDC66 /* ZMQContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A981962C651001DDC66 /* ZMQContext.m */; };
+		E0467A9F1962C651001DDC66 /* ZMQException.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A9A1962C651001DDC66 /* ZMQException.m */; };
+		E0467AA01962C651001DDC66 /* ZMQSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A9D1962C651001DDC66 /* ZMQSocket.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E0467A751962C1FF001DDC66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E0467A471962C1FF001DDC66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0467A4E1962C1FF001DDC66;
-			remoteInfo = "iPhone-PushMsg";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E0467A4F1962C1FF001DDC66 /* iPhone-PushMsg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone-PushMsg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,14 +37,23 @@
 		E0467A611962C1FF001DDC66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0467A621962C1FF001DDC66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0467A651962C1FF001DDC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E0467A671962C1FF001DDC66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0467A681962C1FF001DDC66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0467A671962C1FF001DDC66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "iPhone-PushMsg/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		E0467A681962C1FF001DDC66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "iPhone-PushMsg/ViewController.m"; sourceTree = SOURCE_ROOT; };
 		E0467A6A1962C1FF001DDC66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E0467A701962C1FF001DDC66 /* iPhone-PushMsgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhone-PushMsgTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0467A711962C1FF001DDC66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E0467A791962C1FF001DDC66 /* iPhone-PushMsgTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone-PushMsgTests-Info.plist"; sourceTree = "<group>"; };
-		E0467A7B1962C1FF001DDC66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E0467A7D1962C1FF001DDC66 /* iPhone_PushMsgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone_PushMsgTests.m; sourceTree = "<group>"; };
+		E0467A871962C367001DDC66 /* UniversaliOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniversaliOS.framework; path = "../../Software/iPhone-PushMsg/UniversaliOS.framework"; sourceTree = "<group>"; };
+		E0467A891962C3BA001DDC66 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		E0467A8B1962C3D3001DDC66 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E0467A911962C535001DDC66 /* push.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = push.js; sourceTree = "<group>"; };
+		E0467A931962C563001DDC66 /* ZMQServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQServer.h; sourceTree = "<group>"; };
+		E0467A941962C563001DDC66 /* ZMQServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQServer.m; sourceTree = "<group>"; };
+		E0467A971962C651001DDC66 /* ZMQContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQContext.h; sourceTree = "<group>"; };
+		E0467A981962C651001DDC66 /* ZMQContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQContext.m; sourceTree = "<group>"; };
+		E0467A991962C651001DDC66 /* ZMQException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQException.h; sourceTree = "<group>"; };
+		E0467A9A1962C651001DDC66 /* ZMQException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQException.m; sourceTree = "<group>"; };
+		E0467A9B1962C651001DDC66 /* ZMQObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQObjC.h; sourceTree = "<group>"; };
+		E0467A9C1962C651001DDC66 /* ZMQSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQSocket.h; sourceTree = "<group>"; };
+		E0467A9D1962C651001DDC66 /* ZMQSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0467A881962C367001DDC66 /* UniversaliOS.framework in Frameworks */,
 				E0467A551962C1FF001DDC66 /* CoreGraphics.framework in Frameworks */,
 				E0467A571962C1FF001DDC66 /* UIKit.framework in Frameworks */,
 				E0467A531962C1FF001DDC66 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0467A6D1962C1FF001DDC66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0467A721962C1FF001DDC66 /* XCTest.framework in Frameworks */,
-				E0467A741962C1FF001DDC66 /* UIKit.framework in Frameworks */,
-				E0467A731962C1FF001DDC66 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +74,9 @@
 		E0467A461962C1FF001DDC66 = {
 			isa = PBXGroup;
 			children = (
+				E0467A8B1962C3D3001DDC66 /* LICENSE */,
+				E0467A891962C3BA001DDC66 /* README.markdown */,
 				E0467A581962C1FF001DDC66 /* iPhone-PushMsg */,
-				E0467A771962C1FF001DDC66 /* iPhone-PushMsgTests */,
 				E0467A511962C1FF001DDC66 /* Frameworks */,
 				E0467A501962C1FF001DDC66 /* Products */,
 			);
@@ -93,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				E0467A4F1962C1FF001DDC66 /* iPhone-PushMsg.app */,
-				E0467A701962C1FF001DDC66 /* iPhone-PushMsgTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +93,7 @@
 		E0467A511962C1FF001DDC66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0467A871962C367001DDC66 /* UniversaliOS.framework */,
 				E0467A521962C1FF001DDC66 /* Foundation.framework */,
 				E0467A541962C1FF001DDC66 /* CoreGraphics.framework */,
 				E0467A561962C1FF001DDC66 /* UIKit.framework */,
@@ -112,11 +105,13 @@
 		E0467A581962C1FF001DDC66 /* iPhone-PushMsg */ = {
 			isa = PBXGroup;
 			children = (
+				E0467A901962C4E7001DDC66 /* View */,
+				E0467A8F1962C4DD001DDC66 /* Controller */,
+				E0467A8E1962C4D6001DDC66 /* Model */,
+				E0467A8D1962C4CF001DDC66 /* Server */,
 				E0467A611962C1FF001DDC66 /* AppDelegate.h */,
 				E0467A621962C1FF001DDC66 /* AppDelegate.m */,
 				E0467A641962C1FF001DDC66 /* Main.storyboard */,
-				E0467A671962C1FF001DDC66 /* ViewController.h */,
-				E0467A681962C1FF001DDC66 /* ViewController.m */,
 				E0467A6A1962C1FF001DDC66 /* Images.xcassets */,
 				E0467A591962C1FF001DDC66 /* Supporting Files */,
 			);
@@ -126,6 +121,7 @@
 		E0467A591962C1FF001DDC66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0467A961962C651001DDC66 /* objc-zmq */,
 				E0467A5A1962C1FF001DDC66 /* iPhone-PushMsg-Info.plist */,
 				E0467A5B1962C1FF001DDC66 /* InfoPlist.strings */,
 				E0467A5E1962C1FF001DDC66 /* main.m */,
@@ -134,22 +130,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E0467A771962C1FF001DDC66 /* iPhone-PushMsgTests */ = {
+		E0467A8D1962C4CF001DDC66 /* Server */ = {
 			isa = PBXGroup;
 			children = (
-				E0467A7D1962C1FF001DDC66 /* iPhone_PushMsgTests.m */,
-				E0467A781962C1FF001DDC66 /* Supporting Files */,
+				E0467A911962C535001DDC66 /* push.js */,
 			);
-			path = "iPhone-PushMsgTests";
+			path = Server;
 			sourceTree = "<group>";
 		};
-		E0467A781962C1FF001DDC66 /* Supporting Files */ = {
+		E0467A8E1962C4D6001DDC66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E0467A791962C1FF001DDC66 /* iPhone-PushMsgTests-Info.plist */,
-				E0467A7A1962C1FF001DDC66 /* InfoPlist.strings */,
 			);
-			name = "Supporting Files";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0467A8F1962C4DD001DDC66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0467A931962C563001DDC66 /* ZMQServer.h */,
+				E0467A941962C563001DDC66 /* ZMQServer.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0467A901962C4E7001DDC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0467A671962C1FF001DDC66 /* ViewController.h */,
+				E0467A681962C1FF001DDC66 /* ViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0467A961962C651001DDC66 /* objc-zmq */ = {
+			isa = PBXGroup;
+			children = (
+				E0467A971962C651001DDC66 /* ZMQContext.h */,
+				E0467A981962C651001DDC66 /* ZMQContext.m */,
+				E0467A991962C651001DDC66 /* ZMQException.h */,
+				E0467A9A1962C651001DDC66 /* ZMQException.m */,
+				E0467A9B1962C651001DDC66 /* ZMQObjC.h */,
+				E0467A9C1962C651001DDC66 /* ZMQSocket.h */,
+				E0467A9D1962C651001DDC66 /* ZMQSocket.m */,
+			);
+			path = "objc-zmq";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +197,6 @@
 			productReference = E0467A4F1962C1FF001DDC66 /* iPhone-PushMsg.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0467A6F1962C1FF001DDC66 /* iPhone-PushMsgTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0467A841962C1FF001DDC66 /* Build configuration list for PBXNativeTarget "iPhone-PushMsgTests" */;
-			buildPhases = (
-				E0467A6C1962C1FF001DDC66 /* Sources */,
-				E0467A6D1962C1FF001DDC66 /* Frameworks */,
-				E0467A6E1962C1FF001DDC66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E0467A761962C1FF001DDC66 /* PBXTargetDependency */,
-			);
-			name = "iPhone-PushMsgTests";
-			productName = "iPhone-PushMsgTests";
-			productReference = E0467A701962C1FF001DDC66 /* iPhone-PushMsgTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +205,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "David Black";
-				TargetAttributes = {
-					E0467A6F1962C1FF001DDC66 = {
-						TestTargetID = E0467A4E1962C1FF001DDC66;
-					};
-				};
 			};
 			buildConfigurationList = E0467A4A1962C1FF001DDC66 /* Build configuration list for PBXProject "iPhone-PushMsg" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +220,6 @@
 			projectRoot = "";
 			targets = (
 				E0467A4E1962C1FF001DDC66 /* iPhone-PushMsg */,
-				E0467A6F1962C1FF001DDC66 /* iPhone-PushMsgTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,15 +231,9 @@
 			files = (
 				E0467A6B1962C1FF001DDC66 /* Images.xcassets in Resources */,
 				E0467A5D1962C1FF001DDC66 /* InfoPlist.strings in Resources */,
+				E0467A8A1962C3BA001DDC66 /* README.markdown in Resources */,
 				E0467A661962C1FF001DDC66 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0467A6E1962C1FF001DDC66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0467A7C1962C1FF001DDC66 /* InfoPlist.strings in Resources */,
+				E0467A8C1962C3D3001DDC66 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,29 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0467A9F1962C651001DDC66 /* ZMQException.m in Sources */,
+				E0467A9E1962C651001DDC66 /* ZMQContext.m in Sources */,
 				E0467A691962C1FF001DDC66 /* ViewController.m in Sources */,
+				E0467A951962C563001DDC66 /* ZMQServer.m in Sources */,
 				E0467A631962C1FF001DDC66 /* AppDelegate.m in Sources */,
 				E0467A5F1962C1FF001DDC66 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0467A6C1962C1FF001DDC66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0467A7E1962C1FF001DDC66 /* iPhone_PushMsgTests.m in Sources */,
+				E0467AA01962C651001DDC66 /* ZMQSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E0467A761962C1FF001DDC66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E0467A4E1962C1FF001DDC66 /* iPhone-PushMsg */;
-			targetProxy = E0467A751962C1FF001DDC66 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E0467A5B1962C1FF001DDC66 /* InfoPlist.strings */ = {
@@ -288,14 +271,6 @@
 				E0467A651962C1FF001DDC66 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E0467A7A1962C1FF001DDC66 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0467A7B1962C1FF001DDC66 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -376,9 +351,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/davidblack/Documents/Dad/Business/Business,
+					Development/Projects/Insulin,
+					"Pumps/Software/iPhone-PushMsg",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhone-PushMsg/iPhone-PushMsg-Prefix.pch";
 				INFOPLIST_FILE = "iPhone-PushMsg/iPhone-PushMsg-Info.plist";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,51 +371,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/davidblack/Documents/Dad/Business/Business,
+					Development/Projects/Insulin,
+					"Pumps/Software/iPhone-PushMsg",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhone-PushMsg/iPhone-PushMsg-Prefix.pch";
 				INFOPLIST_FILE = "iPhone-PushMsg/iPhone-PushMsg-Info.plist";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		E0467A851962C1FF001DDC66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhone-PushMsg.app/iPhone-PushMsg";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iPhone-PushMsg/iPhone-PushMsg-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "iPhone-PushMsgTests/iPhone-PushMsgTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		E0467A861962C1FF001DDC66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhone-PushMsg.app/iPhone-PushMsg";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iPhone-PushMsg/iPhone-PushMsg-Prefix.pch";
-				INFOPLIST_FILE = "iPhone-PushMsgTests/iPhone-PushMsgTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -454,14 +403,6 @@
 			buildConfigurations = (
 				E0467A821962C1FF001DDC66 /* Debug */,
 				E0467A831962C1FF001DDC66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		E0467A841962C1FF001DDC66 /* Build configuration list for PBXNativeTarget "iPhone-PushMsgTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0467A851962C1FF001DDC66 /* Debug */,
-				E0467A861962C1FF001DDC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
