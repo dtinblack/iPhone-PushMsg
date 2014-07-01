@@ -20,10 +20,10 @@
 		E0467A8A1962C3BA001DDC66 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = E0467A891962C3BA001DDC66 /* README.markdown */; };
 		E0467A8C1962C3D3001DDC66 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E0467A8B1962C3D3001DDC66 /* LICENSE */; };
 		E0467A951962C563001DDC66 /* ZMQServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A941962C563001DDC66 /* ZMQServer.m */; };
-		E0467A9E1962C651001DDC66 /* ZMQContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A981962C651001DDC66 /* ZMQContext.m */; };
-		E0467A9F1962C651001DDC66 /* ZMQException.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A9A1962C651001DDC66 /* ZMQException.m */; };
-		E0467AA01962C651001DDC66 /* ZMQSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A9D1962C651001DDC66 /* ZMQSocket.m */; };
 		E0467AA21962DEDC001DDC66 /* iPhone Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0467AA11962DEDC001DDC66 /* iPhone Icon.png */; };
+		E0467AB61962E693001DDC66 /* ZMQContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467AB01962E693001DDC66 /* ZMQContext.m */; };
+		E0467AB71962E693001DDC66 /* ZMQException.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467AB21962E693001DDC66 /* ZMQException.m */; };
+		E0467AB81962E693001DDC66 /* ZMQSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467AB51962E693001DDC66 /* ZMQSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,14 +48,14 @@
 		E0467A911962C535001DDC66 /* push.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = push.js; sourceTree = "<group>"; };
 		E0467A931962C563001DDC66 /* ZMQServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQServer.h; sourceTree = "<group>"; };
 		E0467A941962C563001DDC66 /* ZMQServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQServer.m; sourceTree = "<group>"; };
-		E0467A971962C651001DDC66 /* ZMQContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQContext.h; sourceTree = "<group>"; };
-		E0467A981962C651001DDC66 /* ZMQContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQContext.m; sourceTree = "<group>"; };
-		E0467A991962C651001DDC66 /* ZMQException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQException.h; sourceTree = "<group>"; };
-		E0467A9A1962C651001DDC66 /* ZMQException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQException.m; sourceTree = "<group>"; };
-		E0467A9B1962C651001DDC66 /* ZMQObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQObjC.h; sourceTree = "<group>"; };
-		E0467A9C1962C651001DDC66 /* ZMQSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQSocket.h; sourceTree = "<group>"; };
-		E0467A9D1962C651001DDC66 /* ZMQSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQSocket.m; sourceTree = "<group>"; };
 		E0467AA11962DEDC001DDC66 /* iPhone Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Icon.png"; sourceTree = "<group>"; };
+		E0467AAF1962E693001DDC66 /* ZMQContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQContext.h; sourceTree = "<group>"; };
+		E0467AB01962E693001DDC66 /* ZMQContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQContext.m; sourceTree = "<group>"; };
+		E0467AB11962E693001DDC66 /* ZMQException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQException.h; sourceTree = "<group>"; };
+		E0467AB21962E693001DDC66 /* ZMQException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQException.m; sourceTree = "<group>"; };
+		E0467AB31962E693001DDC66 /* ZMQObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQObjC.h; sourceTree = "<group>"; };
+		E0467AB41962E693001DDC66 /* ZMQSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQSocket.h; sourceTree = "<group>"; };
+		E0467AB51962E693001DDC66 /* ZMQSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				E0467AA11962DEDC001DDC66 /* iPhone Icon.png */,
-				E0467A961962C651001DDC66 /* objc-zmq */,
+				E0467AAE1962E693001DDC66 /* objc-zmq */,
 				E0467A5A1962C1FF001DDC66 /* iPhone-PushMsg-Info.plist */,
 				E0467A5B1962C1FF001DDC66 /* InfoPlist.strings */,
 				E0467A5E1962C1FF001DDC66 /* main.m */,
@@ -166,16 +166,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		E0467A961962C651001DDC66 /* objc-zmq */ = {
+		E0467AAE1962E693001DDC66 /* objc-zmq */ = {
 			isa = PBXGroup;
 			children = (
-				E0467A971962C651001DDC66 /* ZMQContext.h */,
-				E0467A981962C651001DDC66 /* ZMQContext.m */,
-				E0467A991962C651001DDC66 /* ZMQException.h */,
-				E0467A9A1962C651001DDC66 /* ZMQException.m */,
-				E0467A9B1962C651001DDC66 /* ZMQObjC.h */,
-				E0467A9C1962C651001DDC66 /* ZMQSocket.h */,
-				E0467A9D1962C651001DDC66 /* ZMQSocket.m */,
+				E0467AAF1962E693001DDC66 /* ZMQContext.h */,
+				E0467AB01962E693001DDC66 /* ZMQContext.m */,
+				E0467AB11962E693001DDC66 /* ZMQException.h */,
+				E0467AB21962E693001DDC66 /* ZMQException.m */,
+				E0467AB31962E693001DDC66 /* ZMQObjC.h */,
+				E0467AB41962E693001DDC66 /* ZMQSocket.h */,
+				E0467AB51962E693001DDC66 /* ZMQSocket.m */,
 			);
 			path = "objc-zmq";
 			sourceTree = "<group>";
@@ -248,13 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0467A9F1962C651001DDC66 /* ZMQException.m in Sources */,
-				E0467A9E1962C651001DDC66 /* ZMQContext.m in Sources */,
 				E0467A691962C1FF001DDC66 /* ViewController.m in Sources */,
+				E0467AB81962E693001DDC66 /* ZMQSocket.m in Sources */,
+				E0467AB61962E693001DDC66 /* ZMQContext.m in Sources */,
+				E0467AB71962E693001DDC66 /* ZMQException.m in Sources */,
 				E0467A951962C563001DDC66 /* ZMQServer.m in Sources */,
 				E0467A631962C1FF001DDC66 /* AppDelegate.m in Sources */,
 				E0467A5F1962C1FF001DDC66 /* main.m in Sources */,
-				E0467AA01962C651001DDC66 /* ZMQSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
