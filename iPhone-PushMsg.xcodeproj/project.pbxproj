@@ -16,7 +16,6 @@
 		E0467A661962C1FF001DDC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0467A641962C1FF001DDC66 /* Main.storyboard */; };
 		E0467A691962C1FF001DDC66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A681962C1FF001DDC66 /* ViewController.m */; };
 		E0467A6B1962C1FF001DDC66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0467A6A1962C1FF001DDC66 /* Images.xcassets */; };
-		E0467A881962C367001DDC66 /* UniversaliOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0467A871962C367001DDC66 /* UniversaliOS.framework */; };
 		E0467A8A1962C3BA001DDC66 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = E0467A891962C3BA001DDC66 /* README.markdown */; };
 		E0467A8C1962C3D3001DDC66 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E0467A8B1962C3D3001DDC66 /* LICENSE */; };
 		E0467A951962C563001DDC66 /* ZMQServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467A941962C563001DDC66 /* ZMQServer.m */; };
@@ -24,6 +23,7 @@
 		E0467AB61962E693001DDC66 /* ZMQContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467AB01962E693001DDC66 /* ZMQContext.m */; };
 		E0467AB71962E693001DDC66 /* ZMQException.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467AB21962E693001DDC66 /* ZMQException.m */; };
 		E0467AB81962E693001DDC66 /* ZMQSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467AB51962E693001DDC66 /* ZMQSocket.m */; };
+		E0E6537919669EBA00788CAF /* UniversaliOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E6537819669EBA00788CAF /* UniversaliOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +56,7 @@
 		E0467AB31962E693001DDC66 /* ZMQObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQObjC.h; sourceTree = "<group>"; };
 		E0467AB41962E693001DDC66 /* ZMQSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMQSocket.h; sourceTree = "<group>"; };
 		E0467AB51962E693001DDC66 /* ZMQSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMQSocket.m; sourceTree = "<group>"; };
+		E0E6537819669EBA00788CAF /* UniversaliOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniversaliOS.framework; path = ../../../../../../../../Desktop/UniversaliOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0467A881962C367001DDC66 /* UniversaliOS.framework in Frameworks */,
+				E0E6537919669EBA00788CAF /* UniversaliOS.framework in Frameworks */,
 				E0467A551962C1FF001DDC66 /* CoreGraphics.framework in Frameworks */,
 				E0467A571962C1FF001DDC66 /* UIKit.framework in Frameworks */,
 				E0467A531962C1FF001DDC66 /* Foundation.framework in Frameworks */,
@@ -95,6 +96,7 @@
 		E0467A511962C1FF001DDC66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0E6537819669EBA00788CAF /* UniversaliOS.framework */,
 				E0467A871962C367001DDC66 /* UniversaliOS.framework */,
 				E0467A521962C1FF001DDC66 /* Foundation.framework */,
 				E0467A541962C1FF001DDC66 /* CoreGraphics.framework */,
@@ -312,6 +314,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -344,6 +350,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -353,19 +363,27 @@
 		E0467A821962C1FF001DDC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/davidblack/Documents/Dad/Business/Business,
-					Development/Projects/Insulin,
-					"Pumps/Software/iPhone-PushMsg",
+					"$(PROJECT_DIR)",
+					/Users/davidblack/Desktop,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhone-PushMsg/iPhone-PushMsg-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "iPhone-PushMsg/iPhone-PushMsg-Info.plist";
-				OTHER_LDFLAGS = "-lstdc++";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,19 +391,27 @@
 		E0467A831962C1FF001DDC66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/davidblack/Documents/Dad/Business/Business,
-					Development/Projects/Insulin,
-					"Pumps/Software/iPhone-PushMsg",
+					"$(PROJECT_DIR)",
+					/Users/davidblack/Desktop,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhone-PushMsg/iPhone-PushMsg-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "iPhone-PushMsg/iPhone-PushMsg-Info.plist";
-				OTHER_LDFLAGS = "-lstdc++";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -409,6 +435,7 @@
 				E0467A831962C1FF001DDC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
